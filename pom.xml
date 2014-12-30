@@ -108,19 +108,25 @@
     <trove.version>3.0.3</trove.version>
     <guava.version>18.0</guava.version>
     <lombok.version>1.14.8</lombok.version>
+    <snakeyaml.version>1.14</snakeyaml.version>
+
     <jmockit.version>1.7</jmockit.version>
     <mockito.core.version>1.9.5</mockito.core.version>
     <testng.version>6.8.7</testng.version>
     <findbugs.version>3.0.0</findbugs.version>
-    <jetty.version>9.2.2.v20140723</jetty.version>
     <junit.version>4.11</junit.version>
     <hamcrest.version>1.3</hamcrest.version>
+
+    <jetty.version>9.2.2.v20140723</jetty.version>
     <springframework.version>4.1.3.RELEASE</springframework.version>
+
     <threeten.version>1.1</threeten.version>
+    <joda.time.version>2.6</joda.time.version>
     <commons.cli.version>1.2</commons.cli.version>
     <commons.lang.version>3.3.2</commons.lang.version>
     <commons.math.version>3.3</commons.math.version>
     <commons.codec.version>1.9</commons.codec.version>
+
     <cern.colt.version>1.2.0</cern.colt.version>
     <totallylazy.version>1.49</totallylazy.version>
   </properties>
@@ -223,6 +229,17 @@
         <groupId>org.mockito</groupId>
         <artifactId>mockito-core</artifactId>
         <version>${mockito.core.version}</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>joda-time</groupId>
+        <artifactId>joda-time</artifactId>
+        <version>${joda.time.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.yaml</groupId>
+        <artifactId>snakeyaml</artifactId>
+        <version>${snakeyaml.version}</version>
         <scope>test</scope>
       </dependency>
       <!-- Ensure that all spring dependencies (both direct and transitive) are at the same version -->
@@ -384,6 +401,17 @@
       <groupId>commons-codec</groupId>
       <artifactId>commons-codec</artifactId>
       <version>${commons.codec.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>joda-time</groupId>
+      <artifactId>joda-time</artifactId>
+      <version>${joda.time.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.yaml</groupId>
+      <artifactId>snakeyaml</artifactId>
+      <version>${snakeyaml.version}</version>
+      <scope>test</scope>
     </dependency>
   </dependencies>
 
