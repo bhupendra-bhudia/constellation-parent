@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-    Copyright 2014 quedex.co.uk
+    Copyright 2014 quedex.co
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -20,16 +20,16 @@
 
   <groupId>quedex.constellation</groupId>
   <artifactId>constellation-parent</artifactId>
-  <version>1.0.3</version>
+  <version>1.0.4</version>
   <packaging>pom</packaging>
 
   <name>Quedex Constellation parent pom</name>
   <description>Quedex Constellation parent pom</description>
-  <url>https://github.com/bhupendra-bhudia/</url>
+  <url>https://github.com/quedexco/</url>
   <inceptionYear>2014</inceptionYear>
   <organization>
-    <name>quedex.co.uk</name>
-    <url>http://www.quedex.co.uk/</url>
+    <name>quedex.co</name>
+    <url>http://www.quedex.co/</url>
   </organization>
   <licenses>
     <license>
@@ -43,20 +43,20 @@
     <developer>
       <id>bhupendra-bhudia</id>
       <name>Bhupendra Bhudia</name>
-      <email>bhupendra [dot] bhudia [at] quedex [dot] co [dot] uk</email>
+      <email>bhupendra [dot] bhudia [at] quedex [dot] co</email>
     </developer>
   </developers>
 
   <scm>
-    <url>https://github.com/bhupendra-bhudia/constellation-parent</url>
-    <connection>scm:git:ssh://github.com/bhupendra-bhudia/constellation-parent.git</connection>
-    <developerConnection>scm:git:git+ssh://git@github.com/bhupendra-bhudia/constellation-parent.git
+    <url>https://github.com/quedexco/constellation-parent</url>
+    <connection>scm:git:ssh://github.com/quedexco/constellation-parent.git</connection>
+    <developerConnection>scm:git:git+ssh://git@github.com/quedexco/constellation-parent.git
     </developerConnection>
     <tag>HEAD</tag>
   </scm>
   <issueManagement>
     <system>GitHub Issue Management</system>
-    <url>https://github.com/bhupendra-bhudia/${project.artifactId}/issues</url>
+    <url>https://github.com/quedexco/${project.artifactId}/issues</url>
   </issueManagement>
 
   <distributionManagement>
@@ -103,33 +103,33 @@
     <javadoc.maxmemory>1g</javadoc.maxmemory>
 
     <!-- Project-wide version specifications -->
-    <slf4j.version>1.7.12</slf4j.version>
+    <slf4j.version>1.7.13</slf4j.version>
     <logback.version>1.1.3</logback.version>
     <trove.version>3.0.3</trove.version>
     <guava.version>18.0</guava.version>
-    <lombok.version>1.16.2</lombok.version>
+    <lombok.version>1.16.6</lombok.version>
     <snakeyaml.version>1.15</snakeyaml.version>
     <threeten.version>1.2</threeten.version>
 
-    <jmockit.version>1.16</jmockit.version>
+    <jmockit.version>1.20</jmockit.version>
     <mockito.core.version>1.10.19</mockito.core.version>
-    <testng.version>6.8.21</testng.version>
-    <findbugs.version>3.0.0</findbugs.version>
+    <testng.version>6.9.9</testng.version>
+    <findbugs.version>3.0.1</findbugs.version>
     <junit.version>4.12</junit.version>
     <junit.addons.version>1.4</junit.addons.version>
     <hamcrest.version>1.3</hamcrest.version>
 
-    <springframework.version>4.1.6.RELEASE</springframework.version>
-    <typesafe.config.version>1.2.1</typesafe.config.version>
+    <springframework.version>4.2.3.RELEASE</springframework.version>
+    <typesafe.config.version>1.3.0</typesafe.config.version>
 
-    <joda.time.version>2.7</joda.time.version>
-    <commons.cli.version>1.2</commons.cli.version>
-    <commons.lang.version>3.3.2</commons.lang.version>
-    <commons.math.version>3.4.1</commons.math.version>
+    <joda.time.version>2.9.1</joda.time.version>
+    <commons.cli.version>1.3.1</commons.cli.version>
+    <commons.lang.version>3.4</commons.lang.version>
+    <commons.math.version>3.5</commons.math.version>
     <commons.codec.version>1.10</commons.codec.version>
     <commons.pool.version>1.6</commons.pool.version>
 
-    <totallylazy.version>1.67</totallylazy.version>
+    <totallylazy.version>1.79</totallylazy.version>
   </properties>
 
   <repositories>
